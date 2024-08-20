@@ -1,0 +1,126 @@
+body {
+    background-image: url('assets/music\ crowd-01.jpg');
+    backdrop-filter: blur(0.3em);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.parrafo {
+    text-align: center;
+    padding: 5px;
+    margin: 0 auto;
+    max-width: 600px;
+    font-size: 18px;
+}
+
+.parrafo p {
+    margin: 0;
+}
+
+.table_style th,
+td {
+    border: 3px solid rgb(204, 168, 36);
+    border-collapse: collapse;
+    width: 10em;
+    background-color: #d1c715;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(41, 41, 41);
+}
+
+.tabla {
+    display: flex;
+    justify-content: center;
+}
+
+.cero {
+    border-radius: 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hache2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.formulario {
+    background-color: #d1c715;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin: 5px 0;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+textarea {
+    height: 100px;
+}
+
+.boton {
+    padding: 10px 20px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background-color: #1f3b2e;
+}
+
+.redes {
+    text-align: center;
+}
+
+.redes h2 {
+    margin-bottom: 10px;
+    color: whitesmoke;
+}
+
+.red-social a {
+    font-size: 24px;
+    margin: 10px 10px;
+    transition: color 0.3s;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.red-social a:hover {
+    color: #d1c715;
+}
+
+.letra {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
